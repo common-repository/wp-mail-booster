@@ -1,0 +1,1220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mail Booster\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-01 09:31+0530\n"
+"PO-Revision-Date: 2018-02-01 09:35+0530\n"
+"Last-Translator: Tech Banker\n"
+"Language-Team: Japanese (Japan)\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Loco-Source-Locale: en-IN\n"
+"X-Loco-Project-Id: 38931\n"
+"X-Loco-Api-Version: 1.0.18 20180126-1\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: includes/translations.php:26
+msgid "Email Log has been deleted Successfully"
+msgstr "メールのログが削除されました"
+
+#: includes/translations.php:27
+msgid "Are you sure you want to delete Email Log?"
+msgstr "メールのログを削除してもよいですか？"
+
+#: includes/translations.php:28
+msgid "MailGun API"
+msgstr "MailGun API"
+
+#: includes/translations.php:29
+msgid ""
+"Your host may have installed a firewall between you and the server. Ask them "
+"to open the ports."
+msgstr ""
+"ホスティングサービスがあなたのシステムとサーバーとの間にファイアウォールをイ"
+"ンストールしている可能性があります。 ポートを開放するように要請してください。"
+
+#: includes/translations.php:30
+msgid ""
+"You may have tried to (incorrectly) use SSL over port 587. Check your "
+"encryption and port settings."
+msgstr ""
+"587番ポートで（不適切に） SSL を使用しようとした可能性があります。 暗号化と"
+"ポートの設定を確認してください。"
+
+#: includes/translations.php:31
+msgid ""
+"Your host may have poor connectivity to the mail server. Try doubling the "
+"Read Timeout."
+msgstr ""
+"ホスティングサービスのメール・サーバーへの接続が不安定かもしれません。 Read "
+"Timeout を２倍にしてみましょう。"
+
+#: includes/translations.php:32
+msgid ""
+"Your host may have installed a firewall (DROP packets) between you and the "
+"server. Ask them to open the ports."
+msgstr ""
+"ホスティングサービスがあなたのシステムとサーバーとの間にファイアウォール"
+"（DROP パケット）をインストールしている可能性があります。 ポートを開放するよ"
+"うに要請してください。"
+
+#: includes/translations.php:33
+msgid ""
+"Your host may have tried to (incorrectly) use TLS over port 465. Check your "
+"encryption and port settings."
+msgstr ""
+"465番ポートで（不適切に） TSL を使用しようとした可能性があります。 暗号化と"
+"ポートの設定を確認してください。"
+
+#: includes/translations.php:34
+msgid ""
+"Your host has likely installed a firewall (REJECT packets) between you and "
+"the server. Ask them to open the ports."
+msgstr ""
+"ホスティングサービスがあなたのシステムとサーバーとの間にファイアウォール"
+"（Reject パケット）をインストールしていると思われます。 ポートを開放するよう"
+"に要請してください。"
+
+#: includes/translations.php:35
+msgid ""
+"Your Web Host provider may have installed a firewall between you and the "
+"server."
+msgstr ""
+"Web Host プロバイダーがあなたのシステムとサーバーとの間にファイアウォールをイ"
+"ンストールしている可能性があります。"
+
+#: includes/translations.php:36
+msgid ""
+"Contact the admin of the server and ask if they allow outgoing communication "
+"on port 25,465,587."
+msgstr ""
+"サーバー管理者に連絡して、25,465,587番のポートからの下り通信が許可されている"
+"かどうかを尋ねてください。"
+
+#: includes/translations.php:37
+msgid ""
+"It seems like they are blocking certain traffic. Ask them to open the ports."
+msgstr ""
+"一部のトラフィックがブロックされているようです。 当該ポートの開放を依頼してく"
+"ださい。"
+
+#: includes/translations.php:38
+msgid ""
+"Your Web Host provider may have blocked the use of mail() function on your "
+"server."
+msgstr ""
+"Web Host プロバイダーが、サーバーでの mail() 関数の使用をブロックしているかも"
+"しれません。"
+
+#: includes/translations.php:39
+msgid "Ask them to enable the mail() function to start sending emails."
+msgstr ""
+"メールの送信を開始するには、mail() 関数を有効にするように依頼してください。"
+
+#: includes/translations.php:42
+msgid "Premium Edition"
+msgstr "プレミアム・エディション"
+
+#: includes/translations.php:43
+msgid ""
+"This feature is available only in Premium Editions! <br> Kindly Purchase to "
+"unlock it!"
+msgstr ""
+"この機能はプレミアム・エディションでのみ利用可能です ! <br> 機能を解除するに"
+"はプレミアム・エディションをご購入ください !"
+
+#: includes/translations.php:46
+msgid "Basic Info"
+msgstr "基本情報"
+
+#: includes/translations.php:47
+msgid "Account Setup"
+msgstr "アカウントのセットアップ"
+
+#: includes/translations.php:48
+msgid "Confirm"
+msgstr "確認する"
+
+#: includes/translations.php:52 lib/dashboard-widget.php:171
+msgid "Email Configuration"
+msgstr "メールの設定"
+
+#: includes/translations.php:53 lib/dashboard-widget.php:171
+msgid "Email Logs"
+msgstr "メールのログ"
+
+#: includes/translations.php:54
+msgid "Test Email"
+msgstr "メールのテスト"
+
+#: includes/translations.php:55
+msgid "Plugin Settings"
+msgstr "プラグイン設定"
+
+#: includes/translations.php:56
+msgid "System Information"
+msgstr "システム情報"
+
+#: includes/translations.php:57
+msgid "Ask For Help"
+msgstr "ヘルプを要請する"
+
+#: includes/translations.php:58
+msgid "Roles & Capabilities"
+msgstr "権限グループと権限"
+
+#: includes/translations.php:61
+msgid "Success!"
+msgstr "成功 !"
+
+#: includes/translations.php:62
+msgid "Email Configuration has been updated Successfully"
+msgstr "メール・セットアップの更新に成功しました !"
+
+#: includes/translations.php:63
+msgid "Test Email was sent Successfully!"
+msgstr "テスト用のメール送信に成功しました !"
+
+#: includes/translations.php:64
+msgid "Test Email was not sent!"
+msgstr "テスト用のメールが送信されませんでした !"
+
+#: includes/translations.php:65
+msgid "Plugin Settings have been updated Successfully"
+msgstr "プラグイン設定の更新に成功しました。"
+
+#: includes/translations.php:66
+msgid ""
+"The OAuth is not supported by providing SMTP Host, kindly provide username "
+"and password"
+msgstr ""
+"SMTP ホストが利用できないため OAuth が利用できません。 ユーザーネームとパス"
+"ワードを入力してください。"
+
+#: includes/translations.php:67
+msgid "Your Name"
+msgstr "名前"
+
+#: includes/translations.php:68
+msgid "Please provide your Name"
+msgstr "名前を入力してください。"
+
+#: includes/translations.php:69
+msgid "Roles & Capabilities have been updated Successfully"
+msgstr "権限グループと権限の更新に成功しました。"
+
+#: includes/translations.php:72 lib/dashboard-widget.php:175
+msgid "Email Sent"
+msgstr "送信されたメール"
+
+#: includes/translations.php:73 lib/dashboard-widget.php:180
+msgid "Email Not Sent"
+msgstr "送信されなかったメール"
+
+#: includes/translations.php:74
+msgid ""
+"You don't have Sufficient Access to this Page. Kindly contact the "
+"Administrator for more Privileges"
+msgstr ""
+"このページにアクセスするのに十分な権限がありません。 管理者に連絡して必要な権"
+"限を与えてもらってください。"
+
+#: includes/translations.php:75
+msgid "Enable"
+msgstr "有効化する"
+
+#: includes/translations.php:76
+msgid "Disable"
+msgstr "無効化する"
+
+#: includes/translations.php:77
+msgid "Override"
+msgstr "上書きする"
+
+#: includes/translations.php:78
+msgid "Don't Override"
+msgstr "上書きしない"
+
+#: includes/translations.php:79
+msgid "Save Settings"
+msgstr "設定を保存する"
+
+#: includes/translations.php:80
+msgid "Subject"
+msgstr "タイトル"
+
+#: includes/translations.php:81
+msgid "Next Step"
+msgstr "次のステップ"
+
+#: includes/translations.php:82
+msgid "Previous Step"
+msgstr "前のステップ"
+
+#: includes/translations.php:83
+msgid "Know about Full Features"
+msgstr "完全な機能について知る"
+
+#: includes/translations.php:84
+msgid "or"
+msgstr "または"
+
+#: includes/translations.php:85
+msgid "Check our Online Demos"
+msgstr "オンライン・デモをチェックする"
+
+#: includes/translations.php:86
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/translations.php:91
+msgid ""
+"A valid Email Address that will be used in the \"CC\" field of the email. "
+"Use Comma \",\" for including multiple email addresses in the \"CC\" field"
+msgstr ""
+"メールの \"CC\" フィールドで使用される有効なメール・アドレス。 \"CC\" フィー"
+"ルドに複数のメール・アドレスを記入するにはカンマ \",\" を使用します。"
+
+#: includes/translations.php:92
+msgid ""
+"A valid Email Address that will be used in the 'BCC' field of the email. Use "
+"Comma ',' for including multiple email addresses in the 'BCC' field"
+msgstr ""
+"メールの \"BCC\" フィールドで使用される有効なメール・アドレス。 \"BCC\" "
+"フィールドに複数のメール・アドレスを記入するにはカンマ \",\" を使用します。"
+
+#: includes/translations.php:93
+msgid "Please provide CC Email Address"
+msgstr "CC メール・アドレスを入力してください"
+
+#: includes/translations.php:94
+msgid "Please provide BCC Email Address"
+msgstr "BCC メール・アドレスを入力してください"
+
+#: includes/translations.php:95
+msgid "From Name"
+msgstr "差出人名"
+
+#: includes/translations.php:96
+msgid "Please provide From Name"
+msgstr "差出人名を入力してください"
+
+#: includes/translations.php:97
+msgid "From Email"
+msgstr "差出人メール・アドレス"
+
+#: includes/translations.php:98
+msgid "Please provide From Email Address"
+msgstr "差出人メール・アドレスを入力してください"
+
+#: includes/translations.php:99
+msgid "Mailer Type"
+msgstr "メーラー・タイプ"
+
+#: includes/translations.php:100
+msgid "Choose among the variety of options for routing emails."
+msgstr "メールのルーティングを選択してください。"
+
+#: includes/translations.php:101
+msgid "Send Email via SMTP"
+msgstr "SMTP 経由でメールを送信する"
+
+#: includes/translations.php:102
+msgid "Use The PHP mail() Function"
+msgstr "PHP の mail() 関数を使用してください。"
+
+#: includes/translations.php:103 includes/translations.php:232
+msgid "SMTP Host"
+msgstr "SMTP ホスト"
+
+#: includes/translations.php:104
+msgid "Server that will send the email"
+msgstr "メールを送信するサーバー"
+
+#: includes/translations.php:105
+msgid "Please provide SMTP Host"
+msgstr "SMTP ホストを入力してください"
+
+#: includes/translations.php:106
+msgid "SMTP Port"
+msgstr "SMTP ポート"
+
+#: includes/translations.php:107
+msgid "Port to connect to the email server"
+msgstr "メール・サーバーに接続するポート"
+
+#: includes/translations.php:108
+msgid "Please provide SMTP Port"
+msgstr "SMTP ポートを入力してください"
+
+#: includes/translations.php:109
+msgid "Encryption"
+msgstr "暗号化"
+
+#: includes/translations.php:110
+msgid ""
+"Encrypt the email when sent to the email server using the different methods "
+"available"
+msgstr ""
+"利用可能な別の方法でメール・サーバーに送信するときにもメールを暗号化する"
+
+#: includes/translations.php:114
+msgid "Authentication"
+msgstr "認証"
+
+#: includes/translations.php:115
+msgid "Method for authentication (almost always Login)"
+msgstr "認証の方法（ほぼ常にログインしている）"
+
+#: includes/translations.php:116 includes/translations.php:152
+msgid "Email Address"
+msgstr "メール・アドレス"
+
+#: includes/translations.php:117
+msgid "A valid Email Address on which you would like to send a Test Email"
+msgstr "テスト用メールの送信に用いたい有効なメール・アドレス"
+
+#: includes/translations.php:118
+msgid "Please provide Email Address"
+msgstr "メール・アドレスを入力してください"
+
+#: includes/translations.php:119
+msgid "Subject Line for your Test Email"
+msgstr "テスト用メールの件名"
+
+#: includes/translations.php:120
+msgid "Please provide Subject"
+msgstr "件名を入力してください"
+
+#: includes/translations.php:121 includes/translations.php:183
+msgid "Email Content"
+msgstr "メールの本文"
+
+#: includes/translations.php:122
+msgid "Email Content for your Test Email"
+msgstr "テスト用メールの本文"
+
+#: includes/translations.php:123
+msgid "Send Test Email"
+msgstr "テスト用メールを送信する"
+
+#: includes/translations.php:124
+msgid "SMTP Debugging Output"
+msgstr "SMTP デバッグの出力"
+
+#: includes/translations.php:125
+msgid "Checking your settings"
+msgstr "設定の確認"
+
+#: includes/translations.php:126
+msgid "Result"
+msgstr "結果"
+
+#: includes/translations.php:127
+msgid "Send Another Test Email"
+msgstr "テスト用メールをもう１つ送信する"
+
+#: includes/translations.php:128
+msgid "From Name Configuration"
+msgstr "差出人名の設定"
+
+#: includes/translations.php:129
+msgid ""
+"Do you want to override the Default Name that tells email recipient about "
+"who sent the email?"
+msgstr ""
+"メールの受信者に誰がメールを送信したのかを示すデフォルト名を上書きしますか？"
+
+#: includes/translations.php:130
+msgid "From Email Configuration"
+msgstr "差出人メール・アドレスの設定"
+
+#: includes/translations.php:131
+msgid ""
+"Do you want to override the Default Email Address that tells email recipient "
+"about the sender?"
+msgstr "メールの受信者に送信者を示すデフォルト名を上書きしますか？"
+
+#: includes/translations.php:132
+msgid "Username"
+msgstr "ユーザー名"
+
+#: includes/translations.php:133
+msgid ""
+" Login is typically the full email address (Example: mailbox@yourdomain.com)"
+msgstr ""
+"一般的には、ログインは完全なメールアドレス（例： mailbox@yourdomain.com）です"
+
+#: includes/translations.php:134
+msgid "Please provide username"
+msgstr "ユーザー名を入力してください。"
+
+#: includes/translations.php:135
+msgid "Password"
+msgstr "パスワード"
+
+#: includes/translations.php:136
+msgid "Password is typically the same as the password to retrieve the email"
+msgstr "一般的には、パスワードはメールの取り出しに用いるのと同じパスワードです"
+
+#: includes/translations.php:137
+msgid "Please provide password"
+msgstr "パスワードを入力してください"
+
+#: includes/translations.php:138
+msgid "Redirect URI"
+msgstr "リダイレクト URI"
+
+#: includes/translations.php:139
+msgid ""
+"Please copy this Redirect URI and Paste into Redirect URI field when "
+"creating your app"
+msgstr ""
+"ご自分の App を作成するときには、このリダイレクト URI をコピーして \"リダイレ"
+"クト URI\" フィールドにペーストしてください"
+
+#: includes/translations.php:145
+msgid "Client Id"
+msgstr "クライアント Id"
+
+#: includes/translations.php:146
+msgid "Secret Key"
+msgstr "秘密鍵"
+
+#: includes/translations.php:147
+msgid "Client Id issued by your SMTP Host"
+msgstr "SMTP ホストが発行したクライアント Id"
+
+#: includes/translations.php:148
+msgid "Secret Key issued by your SMTP Host"
+msgstr "SMTP ホストが発行した秘密鍵"
+
+#: includes/translations.php:149
+msgid "Please provide Client Id"
+msgstr "クライアント Id を入力してください"
+
+#: includes/translations.php:150
+msgid "Please provide Secret Key"
+msgstr "秘密鍵を入力してください"
+
+#: includes/translations.php:151
+msgid ""
+"Yes, automatically send a Test Email upon clicking on the Next Step Button "
+"to verify settings"
+msgstr ""
+"はい、\"次のステップ\" ボタンをクリックするとテスト用メールが自動的に送信され"
+"て設定が検証されます"
+
+#: includes/translations.php:153
+msgid "A valid Email Address account from which you would like to send Emails"
+msgstr "メールの送信に使用したいメール・アドレスの有効なアカウント"
+
+#: includes/translations.php:154
+msgid "Please provide valid Email Address"
+msgstr "有効なメール・アドレスを入力してください"
+
+#: includes/translations.php:155
+msgid "Reply To"
+msgstr "返信先"
+
+#: includes/translations.php:156
+msgid ""
+"A valid Email Address that will be used in the 'Reply-To' field of the email"
+msgstr "メールの \"返信先\" フィールドに使用される有効なメール・アドレス"
+
+#: includes/translations.php:157
+msgid "Please provide Reply To Email Address"
+msgstr "返信先として使用するメール・アドレスを入力してください"
+
+#: includes/translations.php:158
+msgid "Get Google Client Id and Secret Key"
+msgstr "Google のクライアント Id と秘密鍵を取得する"
+
+#: includes/translations.php:159
+msgid "Get Microsoft Client Id and Secret Key"
+msgstr "Microsoft のクライアント Id と秘密鍵を取得する"
+
+#: includes/translations.php:160
+msgid "Get Yahoo Client Id and Secret Key"
+msgstr "Yahoo のクライアント Id と秘密鍵を取得する"
+
+#: includes/translations.php:161
+msgid "SendGrid API"
+msgstr "SendGrid API"
+
+#: includes/translations.php:163
+msgid "Start Date"
+msgstr "開始日"
+
+#: includes/translations.php:164 includes/translations.php:179
+msgid "Resend Email"
+msgstr "メールの再送信"
+
+#: includes/translations.php:165
+msgid "Please provide Start Date"
+msgstr "開始日を入力してください"
+
+#: includes/translations.php:166
+msgid "Start Date for Email Logs"
+msgstr "メールのログを開始する日付"
+
+#: includes/translations.php:167
+msgid "End Date"
+msgstr "終了日"
+
+#: includes/translations.php:168
+msgid "Limit Records"
+msgstr "記録の制限"
+
+#: includes/translations.php:169
+msgid "Number of Logs to view"
+msgstr "表示するログの件数"
+
+#: includes/translations.php:174
+msgid "Please provide End Date"
+msgstr "終了日を入力してください"
+
+#: includes/translations.php:175
+msgid "End Date for Email Logs"
+msgstr "メールのログの終了日"
+
+#: includes/translations.php:176
+msgid "Submit"
+msgstr "送信する"
+
+#: includes/translations.php:177
+msgid "Bulk Action"
+msgstr "一括処理"
+
+#: includes/translations.php:178
+msgid "Delete"
+msgstr "削除する"
+
+#: includes/translations.php:180
+msgid "Apply"
+msgstr "適用する"
+
+#: includes/translations.php:181
+msgid "Email To"
+msgstr "メールの宛先"
+
+#: includes/translations.php:182
+msgid "Action"
+msgstr "アクション"
+
+#: includes/translations.php:184
+msgid "Debug Output"
+msgstr "出力のデバッグ"
+
+#: includes/translations.php:185
+msgid "Date/Time"
+msgstr "日時"
+
+#: includes/translations.php:188
+msgid "Debug Mode"
+msgstr "デバッグ・モード"
+
+#: includes/translations.php:189
+msgid "Do you want to see Debugging Output for your emails?"
+msgstr "デバッグの出力をメールで見ますか？"
+
+#: includes/translations.php:190
+msgid "Remove Database at Uninstall"
+msgstr "アンインストール時にデータベースを除去する"
+
+#: includes/translations.php:191
+msgid "Do you want to remove database at Uninstall of the Plugin?"
+msgstr "プラグインのアンインストール時にデータベースを除去しますか？"
+
+#: includes/translations.php:192
+msgid "Monitor Email Logs"
+msgstr "メールのログを監視する"
+
+#: includes/translations.php:193
+msgid "Do you want to monitor your all Outgoing Emails?"
+msgstr "送信されるメールすべてを監視しますか？"
+
+#: includes/translations.php:196
+msgid "Show Mail Booster Menu"
+msgstr "Mail Booster のメニューを表示する"
+
+#: includes/translations.php:197
+msgid ""
+"Choose among the following roles who would be able to see the Mail Booster "
+"Menu?"
+msgstr ""
+"次の権限の中から Meil Booster のメニューを見ることができるものを選択してくだ"
+"さい"
+
+#: includes/translations.php:198
+msgid "Administrator"
+msgstr "管理者"
+
+#: includes/translations.php:199
+msgid "Author"
+msgstr "投稿者"
+
+#: includes/translations.php:200
+msgid "Editor"
+msgstr "編集者"
+
+#: includes/translations.php:201
+msgid "Contributor"
+msgstr "寄稿者"
+
+#: includes/translations.php:202
+msgid "Subscriber"
+msgstr "購読者"
+
+#: includes/translations.php:203
+msgid "Others"
+msgstr "その他のユーザー"
+
+#: includes/translations.php:204
+msgid "Show Mail Booster Top Bar Menu"
+msgstr "Mail Booster のトップバー・メニューを表示する"
+
+#: includes/translations.php:205
+msgid "Do you want to show Mail Booster menu in Top Bar?"
+msgstr "トップバーに Mail Booster のメニューを表示しますか？"
+
+#: includes/translations.php:206
+msgid "An Administrator Role can do the following"
+msgstr "管理者は以下を行うことができます"
+
+#: includes/translations.php:207
+msgid ""
+"Choose what pages would be visible to the users having Administrator Access"
+msgstr "管理者としての権限を有するユーザーに見えるページを選んでください"
+
+#: includes/translations.php:208
+msgid "Full Control"
+msgstr "すべて"
+
+#: includes/translations.php:209
+msgid "An Author Role can do the following"
+msgstr "投稿者は以下を行うことができます"
+
+#: includes/translations.php:210
+msgid "Choose what pages would be visible to the users having Author Access"
+msgstr "投稿者としての権限を有するユーザーに見えるページを選んでください"
+
+#: includes/translations.php:211
+msgid "An Editor Role can do the following"
+msgstr "編集者は以下を行うことができます"
+
+#: includes/translations.php:212
+msgid "Choose what pages would be visible to the users having Editor Access"
+msgstr "編集者としての権限を有するユーザーに見えるページを選んでください"
+
+#: includes/translations.php:213
+msgid "A Contributor Role can do the following"
+msgstr "寄稿者は以下を行うことができます"
+
+#: includes/translations.php:214
+msgid ""
+"Choose what pages would be visible to the users having Contributor Access"
+msgstr "寄稿者としての権限を有するユーザーに見えるページを選んでください"
+
+#: includes/translations.php:215
+msgid "Other Roles can do the following"
+msgstr "その他のユーザーは以下を行うことができます"
+
+#: includes/translations.php:216
+msgid ""
+"Choose what pages would be visible to the users having Others Role Access"
+msgstr "その他のユーザーに見えるページを選んでください"
+
+#: includes/translations.php:217
+msgid "Please tick the appropriate capabilities for security purposes"
+msgstr "セキュリティーの観点から適切な権限にチェックを入れてください"
+
+#: includes/translations.php:218
+msgid "Only users with these capabilities can access Mail Booster"
+msgstr "こうした権限を有するユーザーのみが Mail Booster にアクセスできます"
+
+#: includes/translations.php:219
+msgid "A Subscriber Role can do the following"
+msgstr "購読者は以下を行うことができます"
+
+#: includes/translations.php:220
+msgid ""
+"Choose what pages would be visible to the users having Subscriber Access"
+msgstr "購読者としての権限を有するユーザーに見えるページを選んでください"
+
+#: includes/translations.php:223
+msgid "Sending Test Email to"
+msgstr "テスト用メールの送信先"
+
+#: includes/translations.php:224
+msgid "Email Status"
+msgstr "メールのステータス"
+
+#: includes/translations.php:227
+msgid "Connectivity Test"
+msgstr "接続テスト"
+
+#: includes/translations.php:228
+msgid "Transport"
+msgstr "トランスポート"
+
+#: includes/translations.php:229
+msgid "Socket"
+msgstr "ソケット"
+
+#: includes/translations.php:230
+msgid "Status"
+msgstr "ステータス"
+
+#: includes/translations.php:231
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/translations.php:233
+msgid "Begin Test"
+msgstr "テストを開始する"
+
+#: includes/translations.php:235
+msgid "SMTP Server that will be used for a Connectivity Test"
+msgstr "接続テストに使用する SMTP サーバー"
+
+#: includes/translations.php:238
+msgid "Additional Headers"
+msgstr "追加のヘッダー"
+
+#: includes/translations.php:239
+msgid ""
+"You also can insert additional headers in this optional field in order to "
+"include in your email"
+msgstr ""
+"このオプション・フィールドに追加のヘッダーを挿入してメールに含めることができ"
+"ます"
+
+#: lib/dashboard-widget.php:80
+msgid "to"
+msgstr "受信者"
+
+#: lib/dashboard-widget.php:81
+msgid "using"
+msgstr "用いて"
+
+#: lib/dashboard-widget.php:169
+msgid "is configured"
+msgstr "設定される"
+
+#: lib/dashboard-widget.php:170
+msgid "will send mail through "
+msgstr "メール送信時の経由地点"
+
+#: lib/dashboard-widget.php:185
+msgid "Upgrade Now to Premium Editions"
+msgstr "プレミアム・エディションにアップグレードする"
+
+#: views/wizard/wizard.php:52
+msgid "Hi there!"
+msgstr "こんにちは !"
+
+#: views/wizard/wizard.php:53
+msgid ""
+"Don't ever miss an opportunity to opt in for Email Notifications / "
+"Announcements about exciting New Features and Update Releases."
+msgstr ""
+"新しい機能やアップデートに関する通知や告知をメールで受け取ることができます"
+
+#: views/wizard/wizard.php:54
+msgid ""
+"Contribute in helping us making our plugin compatible with most plugins and "
+"themes by allowing to share non-sensitive information about your website."
+msgstr ""
+"あなたのウェブサイトに関する重要ではない情報を共有して、このプラグインを他の"
+"大部分のプラグインやテーマと同時に使えるようにするのに協力してください。"
+
+#: views/wizard/wizard.php:61
+msgid "Email Address for Notifications"
+msgstr "通知用のメールアドレス"
+
+#: views/wizard/wizard.php:66
+msgid "If you're not ready to Opt-In, that's ok too!"
+msgstr "今すぐに通知のメールを受け取ることに同意しなくても問題ありません"
+
+#: views/wizard/wizard.php:67
+msgid "Mail Booster will still work fine."
+msgstr "Mail Booster は問題なく作動します"
+
+#: views/wizard/wizard.php:71
+msgid "What permissions are being granted?"
+msgstr "どのような情報の収集を許可しますか？"
+
+#: views/wizard/wizard.php:79
+msgid "User Details"
+msgstr "ユーザーの詳細"
+
+#: views/wizard/wizard.php:80
+msgid "Name and Email Address"
+msgstr "ユーザー名とメール・アドレス"
+
+#: views/wizard/wizard.php:90
+msgid "Current Plugin Status"
+msgstr "現在のプラグインのステータス"
+
+#: views/wizard/wizard.php:91
+msgid "Activation, Deactivation and Uninstall"
+msgstr "有効化、無効化、およびアンインストール"
+
+#: views/wizard/wizard.php:101
+msgid "Notifications"
+msgstr "通知"
+
+#: views/wizard/wizard.php:102
+msgid "Updates &amp; Announcements"
+msgstr "アップデートや告知"
+
+#: views/wizard/wizard.php:112
+msgid "Website Overview"
+msgstr "ウェブサイトの概要"
+
+#: views/wizard/wizard.php:113
+msgid "Site URL, WP Version, PHP Info, Plugins &amp; Themes Info"
+msgstr "サイトの URL、WP のバージョン、PHP 情報、プラグインやテーマの情報"
+
+#: views/wizard/wizard.php:122
+msgid "Opt-In &amp; Continue"
+msgstr "同意して次に進む"
+
+#: views/wizard/wizard.php:126
+msgid "Skip &amp; Continue"
+msgstr "スキップして次に進む"
+
+#: views/wizard/wizard.php:133
+msgid "Privacy Policy"
+msgstr "プライバシー・ポリシー"
+
+#: views/wizard/wizard.php:135
+msgid "Terms &amp; Conditions"
+msgstr "使用条件"
+
+#: wp-mail-booster.php:898
+msgid "Sure! I'd love to!"
+msgstr "是非そうしたいです !"
+
+#: wp-mail-booster.php:899
+msgid "I've already left a review"
+msgstr "レビューならもう書きました"
+
+#: wp-mail-booster.php:900
+msgid "Maybe Later"
+msgstr "また後で"
+
+#: wp-mail-booster.php:902
+msgid "Leave A Review For Mail Booster ?"
+msgstr "Mail Booster のレビューを書きますか？"
+
+#: wp-mail-booster.php:903
+msgid ""
+"We love and care about you. Mail Booster Team is putting our maximum efforts "
+"to provide you the best functionalities.<br> We would really appreciate if "
+"you could spend a couple of seconds to give a Nice Review to the plugin for "
+"motivating us!"
+msgstr ""
+"Mail Booster のチーム一同はユーザーの皆さんを愛していますし、大切に思っていま"
+"す。 Mail Booster チームは最高の機能をユーザーに提供できるよう最大限の努力を"
+"行っています。 <br> ほんのちょっとの時間を割くだけでもいいので、Mail Booster "
+"に素敵なレビューを書いてもらえたら本当にありがたいです。"
+
+#: wp-mail-booster.php:1060
+msgid "We feel guilty when anyone stop using Mail Booster."
+msgstr ""
+"ユーザーが Mail Booster の使用を中止すると悪いことをした気分になります。"
+
+#: wp-mail-booster.php:1061
+msgid "If Mail Booster isn't working for you, others also may not."
+msgstr ""
+"Mail Booster があなたの役に立たなかったのは残念ですが、他のユーザーには Mail "
+"Booster が役立つかもしれません。"
+
+#: wp-mail-booster.php:1062
+msgid "We would love to hear your feedback about what went wrong."
+msgstr ""
+"Mail Booster のどこに不満があったのかフィードバックを寄せて頂けると大変助かり"
+"ます。"
+
+#: wp-mail-booster.php:1063
+msgid "We would like to help you in fixing the issue."
+msgstr "あなたが問題を解決できるように手助けしたいと思います。"
+
+#: wp-mail-booster.php:1070
+msgid "The Plugin didn't work"
+msgstr "プラグインが作動しなかった"
+
+#: wp-mail-booster.php:1076
+msgid "I found a better Plugin"
+msgstr "もっと良いプラグインを見つけた"
+
+#: wp-mail-booster.php:1082
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "デバッグのために一時的に無効化するだけ"
+
+#: wp-mail-booster.php:1088
+msgid "Open a Support Ticket for me."
+msgstr "サポート・チケットを開いてください"
+
+#~ msgid "Email Setup"
+#~ msgstr "メール・セットアップ"
+
+#~ msgid "Use OAuth (Client Id and Secret Key required)"
+#~ msgstr "OAuth を使用する（クライアント Id と秘密鍵が必要）"
+
+#~ msgid "Email Log Details"
+#~ msgstr "ログの詳細をメールで送信する"
+
+#~ msgid "Feedback"
+#~ msgstr "フィードバック"
+
+#~ msgid "Your Feedback has been sent Successfully"
+#~ msgstr "フィードバックの送信に成功しました"
+
+#~ msgid "Please choose an Action from Dropdown!"
+#~ msgstr "ドロップダウンからアクションを選択してください"
+
+#~ msgid "Please choose at least 1 record to delete!"
+#~ msgstr "削除する記録を少なくとも１つは選んでください"
+
+#~ msgid "Are you sure you want to delete Email Logs?"
+#~ msgstr "メールのログを削除してもよいですか？"
+
+#~ msgid "Selected Logs have been deleted Successfully"
+#~ msgstr "選択したログが削除されました"
+
+#~ msgid "Are you sure you want to Resend Emails?"
+#~ msgstr "メールを再送信してもよいですか？"
+
+#~ msgid "Invalid Secret Key. Please rectify and try again!"
+#~ msgstr "無効な秘密鍵です。 正しい秘密鍵を使用して、もう一度行ってください !"
+
+#~ msgid "Licensing"
+#~ msgstr "ライセンス付与"
+
+#~ msgid "Your Email has been Resent Successfully"
+#~ msgstr "メールを再送信しました"
+
+#~ msgid "Your Emails have been Resent Successfully"
+#~ msgstr "メールを再送信しました"
+
+#~ msgid "Unfortunately, Your Email has not been Sent"
+#~ msgstr "メールが送信されませんでした"
+
+#~ msgid "Are you sure you want to Resend Email?"
+#~ msgstr "メールを再送信しますか？"
+
+#~ msgid "Your License has been activated Successfully"
+#~ msgstr "ライセンスが有効化されました"
+
+#~ msgid ""
+#~ "The following php extensions are not found on your server or are "
+#~ "currently disabled. These might create few problems in configuring Mail "
+#~ "Bank. Please contact your WebHost to setup these extensions on your server"
+#~ msgstr ""
+#~ "以下に挙げる php 拡張子がサーバーに存在しないか無効化されており、そのため"
+#~ "に Mail Bank の設定にいくつかの問題が生じています。 Web Host に連絡して、"
+#~ "以下に挙げる php 拡張子をサーバーに準備してください"
+
+#~ msgid "Get Mailgun API Key"
+#~ msgstr "Mailgun の API 鍵を取得する"
+
+#~ msgid "In this field, you would need to provide Mailgun API Key"
+#~ msgstr "このフィールドには、Mailgun の API 鍵を入力します"
+
+#~ msgid "Domain Name"
+#~ msgstr "ドメイン名"
+
+#~ msgid "In this field, you would need to provide Mailgun domain name"
+#~ msgstr "このフィールドには、Mailgun のドメイン名を入力します"
+
+#~ msgid "Please provide Mailgun Domain Name"
+#~ msgstr "Mailgun のドメイン名を入力してください"
+
+#~ msgid "In this field, you need to provide SendGrid API Key"
+#~ msgstr "このフィールドには、SendGrid の API 鍵を入力します"
+
+#~ msgid "Please provide valid API key"
+#~ msgstr "有効な API 鍵を入力してください"
+
+#~ msgid ""
+#~ "A valid Email Address that will be used in the 'CC' field of the email. "
+#~ "Use Comma ',' for including multiple email addresses in the 'CC' field"
+#~ msgstr ""
+#~ "メールの 'CC' フィールドで使用される有効なメール・アドレス。 'CC' フィール"
+#~ "ドに複数のメール・アドレスを記入するにはカンマ ',' を使用します。"
+
+#~ msgid "Mailer Settings"
+#~ msgstr "メーラーの設定"
+
+#~ msgid "Choose among the variety of options for routing emails"
+#~ msgstr "メールのルーティングを選択してください。"
+
+#~ msgid "Mailgun API"
+#~ msgstr "Mailgun API"
+
+#~ msgid "Get SendGrid API Key"
+#~ msgstr "SendGrid の API 鍵を取得する"
+
+#~ msgid "Use SMTP Authentication"
+#~ msgstr "SMTP 認証を使用する"
+
+#~ msgid "Don't Use SMTP Authentication"
+#~ msgstr "SMTP 認証を使用しない"
+
+#~ msgid "Test Email Address"
+#~ msgstr "テスト用メールのアドレス"
+
+#~ msgid "Email Details"
+#~ msgstr "メールの詳細"
+
+#~ msgid "Close"
+#~ msgstr "閉じる"
+
+#~ msgid "Email Sent To"
+#~ msgstr "メールの送信先"
+
+#~ msgid "From"
+#~ msgstr "差出人"
+
+#~ msgid "Back to Email Logs"
+#~ msgstr "メールのログに戻る"
+
+#~ msgid "Automatic Plugin Updates"
+#~ msgstr "プラグインの自動更新"
+
+#~ msgid ""
+#~ "Please choose a specific option whether to allow Automatic Plugin Updates"
+#~ msgstr "プラグインの自動更新の許可に関するオプションを選択してください"
+
+#~ msgid "Monitoring Email Logs"
+#~ msgstr "メールのログを監視する"
+
+#~ msgid "Thank You!"
+#~ msgstr "ありがとうございます !"
+
+#~ msgid ""
+#~ "Kindly fill in the below form, if you would like to suggest some features "
+#~ "which are not in the Plugin"
+#~ msgstr ""
+#~ "このプラグインに追加して欲しい機能があれば、下のフォームからお伝えください"
+
+#~ msgid ""
+#~ "If you also have any suggestion/complaint, you can use the same form below"
+#~ msgstr "提案や不満がある場合にも下のフォームからご意見をお寄せください"
+
+#~ msgid "You can also write us on"
+#~ msgstr "他にも私たちについて書けること"
+
+#~ msgid "Please provide your Name which will be sent along with your Feedback"
+#~ msgstr "フィードバックと共に送信される名前を入力してください"
+
+#~ msgid "Your Email"
+#~ msgstr "メール"
+
+#~ msgid ""
+#~ "Please provide your Email Address which will be sent along with your "
+#~ "Feedback"
+#~ msgstr "フィードバックと共に送信されるメール・アドレスを入力してください"
+
+#~ msgid "Please provide your Email Address"
+#~ msgstr "メール・アドレスを入力してください"
+
+#~ msgid "Please provide your Feedback which will be sent along"
+#~ msgstr "同時に送信されるフィードバックを記入してください"
+
+#~ msgid "Please provide your Feedback"
+#~ msgstr "フィードバックを記入してください"
+
+#~ msgid "Send Feedback"
+#~ msgstr "フィードバックを送信する"
+
+#~ msgid "Your request Email has been sent Successfully"
+#~ msgstr "リクエスト・メールが送信されました"
+
+#~ msgid "Service Available"
+#~ msgstr "サービス利用可能"
+
+#~ msgid "Server ID"
+#~ msgstr "サーバー ID"
+
+#~ msgid "Important Notice!"
+#~ msgstr "重要な通知です !"
+
+#~ msgid ""
+#~ "Congratulations! You have recently purchased Mail Bank and now you would "
+#~ "need to activate the license in order to unlock it!"
+#~ msgstr ""
+#~ "Mail Bank のお買い上げありがとうございます。 機能を解除するにはライセンス"
+#~ "を有効化する必要があります。"
+
+#~ msgid ""
+#~ "Kindly fill in the required details and click on Validate License to "
+#~ "unlock it"
+#~ msgstr ""
+#~ "機能を解除するには、必要な事項を入力して \"Validate License\" をクリックし"
+#~ "ます。"
+
+#~ msgid ""
+#~ "If you face any issues activating the license, you may contact us at "
+#~ msgstr "ライセンスの有効化で問題が生じた場合には、次の連絡先へどうぞ"
+
+#~ msgid "Product Name"
+#~ msgstr "製品名"
+
+#~ msgid "Current Version"
+#~ msgstr "現在のバージョン"
+
+#~ msgid "Website URL"
+#~ msgstr "ウェブサイトの URL"
+
+#~ msgid "Order ID"
+#~ msgstr "注文 ID"
+
+#~ msgid "API KEY"
+#~ msgstr "API 鍵"
+
+#~ msgid "Validate License"
+#~ msgstr "ライセンスの確認"
+
+#~ msgid "This field shows your Installed Product"
+#~ msgstr "このフィールドにはインストールされている製品が表示されます"
+
+#~ msgid "This field shows your Installed Product Version"
+#~ msgstr ""
+#~ "このフィールドにはインストールされている製品のバージョンが表示されます"
+
+#~ msgid "This field shows your Website URL"
+#~ msgstr "このフィールドにはウェブサイトの URL が表示されます"
+
+#~ msgid ""
+#~ "Please provide your Order ID  which you have received after purchasing "
+#~ "the Product. This will be used for Validating the License"
+#~ msgstr ""
+#~ "製品購入後に受け取った注文 ID を入力してください。 注文 IDはライセンスの確"
+#~ "認に使用されます。"
+
+#~ msgid ""
+#~ "Please provide your API Key which you have received after purchasing the "
+#~ "Product. This will be used for Validating the License"
+#~ msgstr ""
+#~ "本製品を購入したのちに受け取った API 鍵を入力してください。 入力された "
+#~ "API 鍵はライセンスの確認に使用されます。"
+
+#~ msgid "Please provide Order ID received after making the purchase"
+#~ msgstr "購入後に受け取った注文 ID を入力してください"
+
+#~ msgid "Please provide API Key received after making the purchase"
+#~ msgstr "購入の後に受け取った API キーを入力してください"
+
+#~ msgid "If Mail Bank is not working for you, others also may not."
+#~ msgstr "Mail Bank が作動していなければ、他のも作動しない恐れがあります。"
